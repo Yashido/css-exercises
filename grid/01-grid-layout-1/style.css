@@ -10,6 +10,16 @@ body, html {
   box-sizing: border-box;
 }
 
+/* Grid Code */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+/* Grid Code */
 .container div {
   padding: 15px;
   font-size: 32px;
