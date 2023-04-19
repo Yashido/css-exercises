@@ -38,6 +38,8 @@
 
 .sidebar {
   background-color: #FF7755;
+
+  gap: 50px;
 }
 
 .sidebar .photo {
