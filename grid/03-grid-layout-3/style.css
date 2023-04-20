@@ -28,11 +28,12 @@
   grid-column: 1 / 3;
 }
 
+.logo {
+  justify-self: start;
+}
 .menu {
   display: grid;
   align-content: center;
-
-
 }
 .menu > ul {
   display: grid;
