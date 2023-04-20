@@ -5,6 +5,10 @@
 
 .container {
   text-align: center;
+
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 4px;
 }
 
 .container div {
@@ -14,13 +18,14 @@
   font-weight: bold;
   color: white;
 
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  gap: 4px;
+  
 }
 
 .header {
   background-color: #393f4d;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .menu ul,
